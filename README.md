@@ -1,13 +1,12 @@
 # POS_WeatherStation
 
-Celem projektu jest realizacja bezprzewodowej stacji pogodowej składającej się z modułu bazowego oraz modułu z zestawem czujników z wykorzystaniem wybranych platform Arduino. Moduł z zestawem czujników bezprzewodowo wysyła dane do stacji bazowej. Oba moduły powinny być wyposażone w sensory pogodowe mierzące ciśnienie, temeraturę oraz wilgotność. Dodatkowo moduł bazowy powinien posiadać wyświetlacz do prezentacji aktualnych danych pogodowych.
-
+Aim of the project is to create a wireless weather station composed of two inependent units. Weather measurements contain pressure, temperature and humidity. First unit is the base station, which measures those three values and displays them on integral LCD screen. Second unit also measures those three metrics and sends them to the main unit via radio. Project is based on Arduino Nano boards, BME-280 sensor, FS100A radio unit and a simple LCD screen.
 
 ***
 
-### Skład zespołu:
-* Szymon Reginis
-* Tomasz Ciborowski
-* Maciej Laskowski
-* Karol Jaros
-* Marceli Mendyk
+### Team:
+* Tomasz Ciborowski - Project Leader, Software Developer
+* Szymon Reginis - Software Developer, Repository Admin
+* Maciej Laskowski - Software and Hadrware Tester
+* Karol Jaros - Component Researcher, Business Analyst
+* Marceli Mendyk - Graphic Designer
